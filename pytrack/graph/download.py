@@ -59,7 +59,7 @@ def osm_download(bbox, network_type='drive', custom_filter=None):
     else:
         osm_filter = get_filters(network_type=network_type)
 
-    url_endpoint = 'https://maps.mail.ru/osm/tools/overpass/api/interpreter'
+    url_endpoint = 'https://overpass-api.de/api/interpreter'
 
     timeout = 180
     out_resp = 'json'
